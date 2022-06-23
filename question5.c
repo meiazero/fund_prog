@@ -30,7 +30,7 @@ int main(){
         lucro[b] = p_venda[b] - p_compra[b];
         // printf("valor do lucro no indice %i e %2.3f\n", b+1, lucro[b]);
         aux[b] = ((p_venda[b] * 100) / p_compra[b]) - (((p_venda[b] * 100) / p_compra[b]) / 2); 
-        printf("valor em porcento do lucro: %2.3f\n\n", aux[b]);
+        // printf("valor em porcento do lucro: %2.3f\n\n", aux[b]);
         if(aux[b] < 10){
             c += 1;
         }else if(10 >= aux[b] < 20){ //aux[b] >= 10 || aux[b] < 20
